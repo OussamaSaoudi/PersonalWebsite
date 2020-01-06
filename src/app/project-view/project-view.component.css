@@ -1,0 +1,98 @@
+.badge-default {
+  background-color: rgba(35, 203, 167, 1);
+}
+.badge-secondary {
+  background-color: rgba(83, 51, 237, 1);
+}
+.badge-success {
+  background-color: rgba(140, 20, 252, 1);
+}
+.badge-danger {
+  background-color: 0%, 95%, 58%, 14%;
+}
+.badge {
+  color: #f5f5f5;
+}
+ul {
+  list-style-type: none;
+}
+.project-description {
+  padding-left: 1rem;
+}
+
+hr {
+  border-color: #000000;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.trans--grow{
+  -webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+  transition: width 1s  ease-out;
+  width : 0%;
+}
+.grow{
+  width:100%;
+}
+
+
+
+.project-block {
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+}
+.tech-pill {
+  margin-bottom: 0.5rem;
+
+}
+.card {
+  border-radius: 0;
+  border-color: #FFFFFF;
+}
+.Java{
+  background-color: #f27935;
+}
+.CPP{
+  background-color: #f34b7d;
+}
+.HTML{
+  background-color: #e44b23;
+}
+.CSS{
+  background-color: #563d7c;
+}
+.Javascript{
+  background-color: #f7ca18;
+}
+.OOP{
+  background-color: #d5b8ff;
+}
+.DSA{
+  background-color: #2abb9b;
+}
+.Angular{
+  background-color: #d91e18;
+}
+.Bootstrap {
+  background-color: #6d42a2;
+}
+.Typescript {
+  background-color: #2b7489;
+}
+.Python {
+  background-color: #3572A5;
+}
+.Kivy {
+  background-color: #34495e;
+}
+.Tkinter {
+  background-color: #fad859;
+}
+.Swing {
+  background-color: #1f3a93
+}

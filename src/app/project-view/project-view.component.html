@@ -1,0 +1,36 @@
+<h2  class="text-center animated infinite bounce delay-2s">Projects</h2>
+
+
+<hr/>
+
+
+<div *ngIf="projectList" >
+  <!--<ul class="project-list" >
+    <li *ngFor="let project of projectList">-->
+
+      <!-- Card begin-->
+      <div class="row project-block">
+      <div class="card col-lg-4 animated fadeIn" *ngFor="let project of projectList; index as i">
+      <!--<div class="card">-->
+        <div class="card-header">
+        <h4 >{{ project.name }}</h4>
+        </div>
+          <div class="card-body">
+            <!-- Card Tech begin-->
+            <ul class="list-inline tech-pill">
+              <li *ngFor="let tech of project.tech" class="list-inline-item">
+                <span class="badge badge-primary text-muted" [className]="getBackgroundColor(tech)">{{ tech }}</span>
+              </li>
+            </ul>
+            <!-- Card Tech end-->
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text" style="white-space: pre-line"> {{project.description}} </p>
+            <a href="#!" class="card-link">Card link</a>
+            <a href="#!" class="card-link">Another link</a>
+          </div>
+      </div>
+    </div>
+      <!-- Card End -->
+</div>
+
+

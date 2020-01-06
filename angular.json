@@ -89,7 +89,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css", "nodes/modules/animate.css/animate.min.css"
             ],
             "scripts": []
           }

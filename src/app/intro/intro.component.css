@@ -1,0 +1,16 @@
+.container .jumbotron {
+  padding-left: 60px;
+  }
+.intro-img{
+  height: 600px;
+  background-position: center right;
+  background-image: url("../../assets/introimgbw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro-text {
+  color: #F9F9F9;
+  margin-left: 5rem;
+  margin-top: 0.1rem;
+
+}
