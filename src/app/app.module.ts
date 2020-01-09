@@ -10,7 +10,6 @@ import { StartViewComponent } from './start-view/start-view.component';
 import { IntroComponent } from './intro/intro.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {NgxTypedJsModule} from 'ngx-typed-js';
-
 @NgModule({
   declarations: [
     AppComponent,

@@ -2,7 +2,7 @@
   padding-left: 60px;
   }
 .intro-img{
-  height: 600px;
+  min-height: 70vh;
   background-position: center right;
   background-image: url("../../assets/introimgbw.jpg");
   background-repeat: no-repeat;
